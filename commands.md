@@ -9,3 +9,4 @@
 |`[ -z "$KEY_ID" ]` | check if there is an ENV |
 |`sed 's/.\(.*\)/\1/' \| sed 's/\(.*\)./\1/'` | strips quotes from string |
 |`repo_name=$(basename "$repo_url" ".${repo_url##*.}")` | get repo name from url |
+|`kubectl get pods --field-selector=status.phase!=Running` | get unhealthy k8s pods |
