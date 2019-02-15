@@ -10,3 +10,4 @@
 |`sed 's/.\(.*\)/\1/' \| sed 's/\(.*\)./\1/'` | strips quotes from string |
 |`repo_name=$(basename "$repo_url" ".${repo_url##*.}")` | get repo name from url |
 |`kubectl get pods --field-selector=status.phase!=Running` | get unhealthy k8s pods |
+|`lsof -i TCP:3000` | list oepn connections on port |
