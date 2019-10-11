@@ -12,3 +12,7 @@
 |`kubectl get pods --field-selector=status.phase!=Running` | get unhealthy k8s pods |
 |`lsof -i TCP:3000` | list oepn connections on port |
 |`git rev-parse @` | get latest commit SHA |
+|`sed 's/,.*//'` | remove chars after and including first `,`|
+|`sed 's/.*://'` | remove chars before and including last `:`|
+|`sed 's/^[[:space:]]*//g'` | remove all whitespace |
+|` sed 's/\\"//g'`| remove all `\"`|
